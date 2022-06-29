@@ -94,3 +94,20 @@ body {
 .address .link {
    color: rgba(255, 255, 255, 0.6);
 }
+
+
+
+
+/* Page Porfolio */ 
+
+.portfolio {
+   background-color: var(--benefits-background-color);
+}
+
+.gallery {
+   background-color: var(--benefits-background-color);
+}
+
+.gallery-title {
+   color: var(--title-text-color);
+}
