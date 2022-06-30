@@ -170,6 +170,9 @@ body {
 .footer .studio {
 color: var(--hero-text-color);
 }
+.address {
+   font-style: normal;
+}
 .address .link {
    color: rgba(255, 255, 255, 0.6);
    font-weight: 400;
