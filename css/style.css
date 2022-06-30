@@ -1,32 +1,31 @@
    /* колір основного текста #757575; */
-   /*   колір заголовків текста #212121;  */
+   /* колір заголовків текста #212121;  */
    /* колір тексту Hero #FFFFFF; */
 
    /* колір акценту #2196F3; */
 
    /* колір фону Героя і Футера #2F303A; */
-   /* колір фону секції About #E5E5E5; */
-   /* колір фонусекції Team  #F5F4FA;*/
+   /* колір фону секції Team  #F5F4FA;*/
 
    :root {
+      /* Text colors */ 
       --primery-text-color: #757575; 
       --title-text-color: #212121;
       --accent-text-color: #2196F3;
       --hero-text-color: #FFFFFF;
 
+      /* Bg colors */
       --hero-background-color: #2F303A;
-      --benefits-background-color: #E5E5E5;
       --team-background-color: #F5F4FA;
   }
 
    /* WebStudio Page*/
 body {
    color: var(--primery-text-color);
-   background-color: #FFFFFF;
-   font-family: Roboto, Arial, "Helvetica Neue", Helvetica,'Verdana',
-   'Tahoma', sans-serif; 
+   font-family: Roboto, sans-serif; 
    letter-spacing: 0.03em;
 
+/* Reset styles */
 }
 .list {
    list-style: none;
@@ -100,15 +99,11 @@ body {
    line-height: 1.87;
    display: flex;
    align-items: center;
-   text-align: center;
    letter-spacing: 0.06em;
 }
 
 
 /* Section Benefits */
-.benefits {
-   background-color: var(--benefits-background-color);
-}
 .benefits .title {
    color: var(--title-text-color);
    font-size: 14px;
@@ -123,9 +118,6 @@ body {
 
 
 /* Section About */
-.about {
-   background-color: var(--benefits-background-color);
-}
 .about .title {
    color: var(--title-text-color);
    font-size: 36px;
@@ -200,7 +192,6 @@ color: var(--hero-text-color);
    line-height: 1.62;
    font-family: inherit;
    cursor: pointer;
-   text-align: center;
    letter-spacing: 0.03em;
 }
 .filter-btn:hover,
@@ -212,10 +203,6 @@ color: var(--hero-text-color);
 
 
 /* Section Portfolio */
-.gallery {
-   background-color: var(--benefits-background-color);
-}
-
 .gallery-title {
    color: var(--title-text-color);
    font-size: 18px;
